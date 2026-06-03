@@ -1,0 +1,45 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local environments
+.env
+.venv/
+venv/
+conda-meta/
+
+# Large artifacts
+data/*
+!data/examples/
+!data/examples/**
+!data/.gitkeep
+checkpoints/
+CKPT/
+output/
+outputs/
+logs/
+*.log
+*.txt
+*.jsonl.tmp
+
+# Model and dataset shards
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.arrow
+*.parquet
+*.tar
+*.tar.gz
+*.zip
+
+# Ray / distributed runtime
+ray_results/
+core.*
+
+# Local release-only files
+local.env
+README.preview.html

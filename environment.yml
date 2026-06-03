@@ -1,0 +1,39 @@
+name: foodr1-sft
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip=23.3
+  - pip:
+      - torch==2.9.0
+      - torchvision==0.24.0
+      - torchaudio==2.9.0
+      - transformers==4.57.6
+      - tokenizers==0.22.2
+      - accelerate==1.12.0
+      - datasets==3.6.0
+      - peft==0.17.1
+      - deepspeed==0.17.6
+      - megatron-core==0.15.3
+      - flash-attn==2.8.3
+      - vllm==0.13.0
+      - ray==2.53.0
+      - qwen-vl-utils==0.0.14
+      - qwen-omni-utils==0.0.8
+      - modelscope==1.33.0
+      - numpy==1.26.4
+      - pandas==2.3.3
+      - pillow==11.3.0
+      - opencv-python==4.11.0.86
+      - safetensors==0.7.0
+      - sentencepiece==0.2.1
+      - einops==0.8.1
+      - timm==1.0.24
+      - triton==3.5.0
+      - ninja==1.13.0
+      - packaging==25.0
+      - PyYAML==6.0.3
+      - tqdm==4.67.1
+      - tensorboard==2.20.0
+      - wandb==0.24.0
+      - bitsandbytes==0.49.1
