@@ -18,7 +18,7 @@
 </p>
 
 <p>
-  <a href="https://arxiv.org/abs/xxxx.xxxxx">
+  <a href="https://arxiv.org/abs/2606.04986">
     <img src="https://img.shields.io/badge/arXiv-Paper-b31b1b.svg" alt="arXiv">
   </a>
   <a href="https://huggingface.co/collections/zy12123/food-r1">
